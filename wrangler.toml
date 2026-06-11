@@ -1,0 +1,14 @@
+# Cloudflare Pages 配置文件
+# 项目名 (可自定义)
+name = "guandan"
+
+# 构建命令 & 输出目录
+build_command = "cd frontend && npm install && npm run build"
+build_output_dir = "frontend/dist"
+
+# 兼容日期
+compatibility_date = "2026-06-11"
+
+# 环境变量（可选）
+[vars]
+NODE_VERSION = "20"
